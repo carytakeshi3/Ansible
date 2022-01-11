@@ -3,4 +3,4 @@
   become: true
   tasks:
     - name: create new directory
-      command: mkdir /newdirectory
+      command: sh '/kubernetes-deployment/deployment.sh'
